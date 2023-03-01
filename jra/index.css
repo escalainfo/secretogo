@@ -1,0 +1,581 @@
+
+.fb-comments {
+  border: 1px solid #e9ebee;
+  border-radius: 3px;
+  padding: 0 15px;
+  padding-bottom: 15px;
+  margin: auto;
+  position: relative;
+  color: #4267b2;
+  background: #fff;
+}
+
+.fb-comments-header {
+  padding: 15px 0;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.fb-comments-header span {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.fb--response {
+  margin-left: 60px;
+}
+
+.fb-comments-comment {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.fb-comments-reply-wrapper {
+  margin-left: 60px;
+  border-left: 1px dotted #e9ebee;
+  padding-left: 5px;
+}
+
+
+
+
+
+
+.fb-comments-comment-img {
+  vertical-align: top;
+  width: 48px;
+  padding-right: 5px;
+}
+
+.fb-comments-comment-img img {
+  max-width: 48px;
+  border-radius: 25px;
+}
+
+.fb-comments-comment-name {
+  font-size: 0.85em;
+}
+
+.fb-comments-comment-name name {
+  color: #365899;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-name name:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-comment-name occupation {
+  color: #90949c;
+}
+
+.fb-comments-comment-text {
+  font-size: 0.9em;
+  color: #000;
+  border-radius: 21px;
+  background-color: #eaebef;
+  padding: 10px 20px;
+}
+
+.fb-comments-comment-actions like,
+.fb-comments-comment-actions reply {
+  font-size: 0.75em;
+  color: #4267b2;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-actions like.liked {
+  color: #90949c;
+}
+
+.fb-comments-comment-actions like:hover,
+.fb-comments-comment-actions reply:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-comment-actions likes {
+  font-size: 13px;
+  background: url(img/likes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 40px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-top: -10px;
+  float: right;
+  background-color: #fff;
+  border: solid #eaebef;
+  border-radius: 19px;
+}
+
+.fb-comments-comment-actions date {
+  font-size: 0.75em;
+  color: #90949c;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.fb-comments-comment-actions date:hover {
+  text-decoration: underline;
+}
+
+.fb-comments-loadmore {
+  background: #4080ff;
+  border: 1px solid #4080ff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.875em;
+  text-shadow: none;
+  width: 100%;
+  font-weight: 700;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.fb-reply-input {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px 7.5px;
+  font-size: 0.75em;
+  color: #000;
+  outline: none;
+}
+
+.fb-reply-input:hover,
+.fb-reply-button:hover {
+  outline: none;
+}
+
+.fb-reply-button {
+  background: #4080ff;
+  border: 1px solid #4080ff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 0.75em;
+  padding: 5px 7.5px;
+  text-shadow: none;
+  width: 100%;
+  font-weight: 700;
+  cursor: hand;
+  cursor: pointer;
+  outline: none;
+}
+
+.bbtn {
+  width: 100%;
+  max-width: 449px;
+}
+
+
+.fb-comments {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+	font-family: Montserrat;
+}
+
+.container--header{
+    background: linear-gradient( black 0%, darkred 90%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    alig-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text--header{
+    align-self: center;
+}
+
+.people1{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: red;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.video{
+    margin: 50px auto;
+    width: 65%;
+}
+
+.container--body--text{
+    margin-top:-50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.caution{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.text--body{
+    font-weight:500;
+}
+
+a{
+    color: black;
+	text-decoration: none;
+	background: linear-gradient( #FDDA0D 0%, #FFBF00 90%);
+    font-size: 28px;
+    width: 45%;
+    margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 12px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow:5px 5px 5px black;
+}
+
+.container--imgs--text{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mockfull{
+    margin: 0 auto;
+	margin-top: 50px;
+	width: 450px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.container--grid{
+    align-self: center;
+    width: 130%;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    padding-top: 10px;
+	padding-bottom: 25px;
+	line-height: 1.5em;
+}
+
+.pago{
+    font-size: 18px;
+	width: 35%;
+	padding-top: 15px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+   padding: 10px;
+}
+
+.grid--text{
+    padding: 20px;
+}
+
+.accede{
+    font-size: 18px;
+	width: 35%;
+	padding-top: 15px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.listo{
+    font-size: 18px;
+	width: 35%;
+	padding-top: 15px;
+    float:right;
+    margin-left: 10px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer--footer{
+    margin: 0 auto;
+	margin-top: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+	padding-top: 30px;
+}
+
+.payment{
+    align-self: center;
+    width: 30%;
+}
+
+.rating{
+    font-weight: bold;
+}
+
+.garantia{
+    margin-top: 50px;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 30px;
+    border: 4px solid rgb(58, 168, 236);
+    border-radius: 10px;
+}
+
+.titlegtia{
+    align-self: start;
+    font-size: 32px;
+}
+
+.gtia{
+    width: 28%;
+    padding: 40px;
+}
+
+.garantia--text{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.container--garantia{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer--footer{
+    background-color: rgb(30, 29, 29);
+}
+
+.pirateria{
+    width: 20%;
+    align-self: center;
+}
+
+.renovar{
+    width: 7%;
+    align-self: center;
+}
+
+.footer{
+    width: 50%;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.fa-regular{
+    font-size: 40px;
+}
+@media screen and (max-width: 1100px){
+    .garantia{
+        width: 90%;
+    }}
+@media screen and (max-width: 700px){
+    .container--header{ 
+        font-size: 15px;
+		display: grid;
+        margin: auto;
+        align-self: center;
+        tex-align: center;
+        align-items: center;
+        justify-content: center;
+		
+    }
+    .center{
+        
+		text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .text--header{
+        
+		width: 80%;
+        padding-top: 10px;
+        margin: auto;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+	.people1{
+        display: inline;
+    }
+        
+    .video{
+        width: 95%;
+    }
+    .text--body{
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .mockfull{
+        margin: 0;
+        width: 150%;
+        align-self: center;
+    }
+    .payment{
+        width: 130%;
+    }
+    a{
+        font-size: 33px;
+		color: black;
+		text-decoration: none;
+		margin-top: 10px;
+        margin-bottom: 12px;
+        width: 150%;
+        margin-left: -60px;
+        align-self: center;
+    }
+    .acceso{
+        font-size: 28px;
+        width: 150%;
+        margin-left:-50px;
+    }
+    .accede{
+        width: 130%;
+        align-self: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pago{
+        width: 130%;
+        margin-top: 10px;
+    }
+    .listo{
+        width: 130%;
+        margin: 0;
+    }
+    .container--grid{
+        font-size: 18px;
+        width: 145%;
+        margin-left: -90px;
+        line-height: 30px;
+        align-self: none;
+        flex-direction: column;
+    }
+    .gtia{
+        width: 65%;
+        align-self: center;
+
+    }
+    .garantia{
+        
+		display: flex;
+        flex-direction: column;
+        width: 95%;
+        font-size: 20px;
+    }
+    .titlegtia{
+        font-size: 35px;
+		text-align: left;
+		line-height: 1.5em;
+		margin-bottom: 0px;
+		margin-top: 0px;
+
+    }
+    .pirateria{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .renovar{
+        width: 35%;
+    }
+    .footer{
+        width: 100%;
+        line-height: 22px;
+        padding-bottom: 0px;
+    }
+    p{
+        padding-bottom: 10px;
+    }
+    
+    .fb-comments {
+    width: 90%;
+    margin: 0 auto;
+}
+
+}
+
+
+
+
+
+
